@@ -39,3 +39,24 @@
     height: 40%;
 
   }
+
+  /*Media Querries*/
+
+  @media (max-width: 480px) {
+    .div1 {
+      background-color: white;
+      display: inline-block;
+      width: 70%;
+      border: 5px solid black;
+      padding: 25px;
+      margin: 20px;
+      font-size: 70%;
+}
+    .header {
+      padding: 50px;
+      text-align: center;
+      background: black;
+      color: red;
+      font-size: 25px;
+      align-self: center;
+    }
